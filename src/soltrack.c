@@ -34,8 +34,6 @@
 
 #include "soltrack.h"
 
-#define DEBUG_PRINT 1
-
 #define V_DIM 3 // Dimension of all vectors
 // Which element is where in a vector
 #define X_AXIS 0
@@ -116,12 +114,6 @@ int soltrack_init(double deg_lat, double deg_long)
 	// Calculate latitude and longitude in radians
 	double rad_lat = deg_to_rad(deg_lat);
 	double rad_long = deg_to_rad(deg_long);
-	
-	#if DEBUG_PRINT == 1
-	printf("Latitude: %frad\n", rad_lat);
-	printf("Longitude: %frad\n\n", rad_long);
-	#endif
-	
 	// Create a 3-dimensional vector
 	uv_orth_w_spin = gsl_vector_alloc(V_DIM);
 	gsl_vector_set(uv_orth_w_spin, X_AXIS, \
