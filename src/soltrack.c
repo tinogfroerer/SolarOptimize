@@ -80,13 +80,6 @@ static gsl_matrix *rm_ax_tilt = NULL;
 
 //---------------------------- FUNCTIONS --------------------------
 
-/* Define short writing forms for gsl_sf_cogsl_sf_sinus and gsl_sf_sinus
-double (*gsl_sf_sin)(double);
-gsl_sf_sin = gsl_sf_gsl_sf_sin;
-double (*gsl_sf_cos)(double);
-gsl_sf_cos = gsl_sf_gsl_sf_cos;
-*/
-
 /**
  * Checks if an angle is in the domain [-180°, 180°]
  * 

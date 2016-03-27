@@ -31,10 +31,20 @@
 #ifndef SOLTRACK_H
 #define SOLTRACK_H
 
-int soltrack_init(double deg_beta, double deg_gamma);
+/**
+ * Initializes the program by setting the position on the world
+ * Can be called repeatedly when changing location
+ *
+ * Warning: Do not use minutes or seconds, only degrees
+ *
+ * @param deg_lat: The latitude in degrees from [-90°, 90°]
+ * @param deg_long: The longitude in degrees from [-180°, 180°)
+ * @return 0 on success
+ */
+int soltrack_init(double deg_lat, double deg_long);
 
+// Test functions, not important
 void print_tilt();
-
 void print_orth_with_spin();
 
 #endif /* SOLTRACK_H */
