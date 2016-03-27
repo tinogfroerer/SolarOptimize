@@ -16,6 +16,18 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+/**
+ * This file contains the declaration and documentation of lib func
+ *
+ * @author Tino Gfroerer
+ * @version 0.1
+ 
+ * Versioning:
+ * 0.x are alpha versions, which do not implement the full task yet
+ * 1.x are beta version, which implement the task, but are untested
+ * 1.x.x are tested versions
+ */
+
 #ifndef SOLTRACK_H
 #define SOLTRACK_H
 

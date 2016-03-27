@@ -15,6 +15,14 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+ 
+/**
+ * Contains the implementation to calculate the suns movement
+ * All documentation is available in the soltrack.h file
+ *
+ * @author Tino Gfroerer
+ * @version 0.1
+ */
 
 #include <stdio.h>
 #include <time.h>

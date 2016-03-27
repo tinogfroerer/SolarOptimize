@@ -16,6 +16,14 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+/**
+ * This file contains testcases for the SolarOptimize library
+ * All documentation in soltrack.h
+ *
+ * @author Tino Gfroerer
+ * @version 0.1
+ */
+
 #include <stdio.h>
 
 #include "soltrack.h"
